@@ -5,6 +5,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class MyNewBean {
 
+    AnotherBean anotherBean;
+
 
     @Override
     public String toString() {
